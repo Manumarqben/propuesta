@@ -7,14 +7,14 @@
 La aplicación permitirá a cualquier usuario poder leer obras (cuentos, novelas, 
 comics, historietas, etc...) en ella. 
 Si el usuario está registrado tendrá opciones como seguir o dejar de seguir una 
-obra, puntuarla, añadir a favoritos, añadir a lista de proximas lecturas y 
-solicitar publicar.
+obra, puntuarla, marcar los capítlos leidos, marcar obras como favoritas, añadir 
+a lista de proximas lecturas y solicitar publicar.
 Si el usuario tiene permisos para publicar tendrá opciones adicionales como 
 publicar una obra nueva, editar las obras publicadas por él o eliminarlas.
 
 ## Funcionalidad principal de la aplicación
 
-Explicar.
+
 
 ## Objetivos generales
 
