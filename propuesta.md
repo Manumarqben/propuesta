@@ -1,10 +1,16 @@
-% Videoclub "Los Pajaritos"
-% Ricardo Pérez
-% Curso 2019/20
+% Lector Online "Comics y cuentos"
+% Manuel Jesús Márquez Benítez
+% Curso 2020/21
 
 # Descripción general del proyecto
 
-Explicar.
+La aplicación permitirá a cualquier usuario poder leer obras (cuentos, novelas, 
+comics, historietas, etc...) en ella. 
+Si el usuario está registrado tendrá opciones como seguir o dejar de seguir una 
+obra, puntuarla, añadir a favoritos, añadir a lista de proximas lecturas y 
+solicitar publicar.
+Si el usuario tiene permisos para publicar tendrá opciones adicionales como 
+publicar una obra nueva, editar las obras publicadas por él o eliminarlas.
 
 ## Funcionalidad principal de la aplicación
 
