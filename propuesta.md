@@ -4,17 +4,27 @@
 
 # Descripción general del proyecto
 
-La aplicación permitirá a cualquier usuario poder leer obras (cuentos, novelas, 
-comics, historietas, etc...) en ella. 
-Si el usuario está registrado tendrá opciones como seguir o dejar de seguir una 
-obra, puntuarla, marcar los capítlos leidos, marcar obras como favoritas, añadir 
-a lista de proximas lecturas y solicitar publicar.
-Si el usuario tiene permisos para publicar tendrá opciones adicionales como 
-publicar una obra nueva, editar las obras publicadas por él o eliminarlas.
+La aplicación permitirá los usuario poder leer y publicar obras (cuentos, novelas, comics, historietas, etc...) en ella. Podrá hacerles el seguimiento a los capitulos leidos, marcar como favorito, como pendiente de leer, ...
 
 ## Funcionalidad principal de la aplicación
 
+La aplicación se centra en ofrecer al usuario la oportunidad de publicar sus obras y de leer las obras de otros usuarios. 
 
+Según categoría asignada al usuario podrá realizar diferentes acciones dentro de la aplicación.
+
+Los usuarios no registrados (invitados) unicamente tendrán acceso a ciertas obras, así como a un número limitado de capítulos de las mismas.
+
+Si el usuario está registrado tendrá opciones como seguir o dejar de seguir una obra, asignar una puntuación, marcar los capítulos leídos, marcar obras como favoritas, añadir a lista de próximas lecturas y solicitar publicar.
+
+Si el usuario ya tiene permiso para publicar tendrá opciones adicionales como publicar una obra nueva, editar las obras publicadas por él o eliminarlas.
+
+Por último los usuarios administradores tendrán opción de dar y quitar permisos de publicación a los usuarios y eliminarlos.
+
+Todos los usuarios tendrán la opción de compartir en redes sociales las obras simplemente dando click en un botón.
+
+Las obras estarán compuestas por 1 o más capítulos. Cada vez que un nuevo capitulo es añadido a una obra se le enviará un correo a todos los usuarios que tengan marcada la en seguimiento y han marcado la casilla de recibir actualizaciones.
+
+Al entrar en la vista de lector trendrá dos opciones de vista (paginada o cascada), en la vista paginada tiene las opciones de pasar a la siguiente página o a la página anterior, por otro lado en la vista en cascada tiene la opción de el scroll automático, la cual está desactivada por defecto, al activarla el contenido empezará a desplazarse a una velocidad constante.
 
 ## Objetivos generales
 
@@ -22,11 +32,17 @@ A diferencia de los casos de uso, los objetivos no tienen principio ni fin.
 
 Por ejemplo:
 
-* Objetivo: "gestionar los alquileres y las devoluciones de las películas".
-* Casos de uso: "alquilar una película", "devolver una película".
+* Objetivo princpial: "Almacenar y dar acceso de las obras publicadas".
+
+* Gestionar registro y logueo de usuarios.
+* Gestionar permisos de usuario por parte de administradores.
+* Gestionar la publicación, modificación y borrado de obras.
+* Gestionar la publicación de un nuevo capítulo.
+* Gestionar el estado de la obra y capitulos para cada usuario.
+* Gestionar 
 
 # Elemento de innovación
 
-Aspecto, función o tecnología novedosa o innovadora no tratada directamente
-en clase y que será necesario investigar para desarrollar adecuadamente el
-Proyecto.
+-Amazon S3 como servicio de almacenamiento.
+
+-Uso de extensiones de Yii2 como "yii2-social-share" para implementación de funciones.
