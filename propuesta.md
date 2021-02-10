@@ -14,11 +14,11 @@ Según categoría asignada al usuario podrá realizar diferentes acciones dentro
 
 Los usuarios no registrados (invitados) unicamente tendrán acceso a ciertas obras, así como a un número limitado de capítulos de las mismas.
 
-Si el usuario está registrado tendrá opciones como seguir o dejar de seguir una obra, asignar una puntuación, marcar los capítulos leídos, marcar obras como favoritas, añadir a lista de próximas lecturas y solicitar publicar.
+Si el usuario está registrado tendrá opciones como seguir o dejar de seguir una obra, asignar una puntuación, marcar los capítulos leídos, marcar obras como favoritas, añadir a lista de próximas lecturas, dar like a capítulos y solicitar publicar.
 
 Si el usuario ya tiene permiso para publicar tendrá opciones adicionales como publicar una obra nueva, editar las obras publicadas por él o eliminarlas.
 
-Por último los usuarios administradores tendrán opción de dar y quitar permisos de publicación a los usuarios y eliminarlos.
+Por último los usuarios administradores tendrán opción de dar y quitar permisos de publicación a los usuarios, eliminarlos, editar las obras y los capítulos.
 
 Todos los usuarios tendrán la opción de compartir en redes sociales las obras simplemente dando click en un botón.
 
@@ -34,12 +34,12 @@ Por ejemplo:
 
 * Objetivo princpial: "Almacenar y dar acceso de las obras publicadas".
 
-* Gestionar registro y logueo de usuarios.
-* Gestionar permisos de usuario por parte de administradores.
+* Gestionar registro, logueo y deslogueo de usuarios.
+* Gestion de los permisos de usuario por parte de administradores.
 * Gestionar la publicación, modificación y borrado de obras.
-* Gestionar la publicación de un nuevo capítulo.
+* Gestionar la publicación, modificado y borrado de capítulos.
 * Gestionar el estado de la obra y capitulos para cada usuario.
-* Gestionar 
+* Uso del lector con sus diferentes vistas.
 
 # Elemento de innovación
 
