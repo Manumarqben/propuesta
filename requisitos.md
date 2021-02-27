@@ -570,7 +570,7 @@
 
 | **R64**     | **Estado de la obra (lector)**         |
 | --------------: | :------------------- |
-| **Descripción** | Un usuario registrado podrá agregar un estado personal a una obra. Los estados son <<siguiendo>>, <<pendiente>>, <<abandonado>> y <<leído>>.             |
+| **Descripción** | Un usuario registrado podrá agregar un estado personal a una obra. Los estados son “siguiendo”, “pendiente”, “abandonado” y “leído”.             |
 | **Prioridad**   | Importante           |
 | **Tipo**        | Funcional                |
 | **Complejidad** | Media         |
@@ -597,7 +597,7 @@
 
 | **R67**     | **Obra favorita**         |
 | --------------: | :------------------- |
-| **Descripción** | Un usuario registrado podrá agregar la obra a la lista de <<favoritos>> del usuario.             |
+| **Descripción** | Un usuario registrado podrá agregar la obra a la lista de “favoritos” del usuario.             |
 | **Prioridad**   | Importante           |
 | **Tipo**        | Funcional                |
 | **Complejidad** | Media         |
@@ -606,7 +606,7 @@
 
 | **R68**     | **Quitar obra de favoritos**         |
 | --------------: | :------------------- |
-| **Descripción** | Un usuario registrado podrá quitar la obra a la lista de <<favoritos>> del usuario.             |
+| **Descripción** | Un usuario registrado podrá quitar la obra a la lista de “favoritos” del usuario.             |
 | **Prioridad**   | Importante           |
 | **Tipo**        | Funcional                |
 | **Complejidad** | Media         |
@@ -685,27 +685,27 @@
 | **Entrega**     | v2             |
 
 
-| **R77**     | **Dar <<me gusta>> a un capitulo**         |
+| **R77**     | **Dar “me gusta” a un capitulo**         |
 | --------------: | :------------------- |
-| **Descripción** | Un usuario puede dar <<me gusta>> a los capítulos que tiene como leídos.             |
+| **Descripción** | Un usuario puede dar “me gusta” a los capítulos que tiene como leídos.             |
 | **Prioridad**   | Importante           |
 | **Tipo**        | Funcional                |
 | **Complejidad** | Media         |
 | **Entrega**     | v3             |
 
 
-| **R78**     | **Quitar <<me gusta>> a un capitulo**         |
+| **R78**     | **Quitar "me gusta" a un capitulo**         |
 | --------------: | :------------------- |
-| **Descripción** | Un usuario puede quitar el <<me gusta>> a los capítulos que se los ha dados previamente.             |
+| **Descripción** | Un usuario puede quitar el "me gusta" a los capítulos que se los ha dados previamente.             |
 | **Prioridad**   | Importante           |
 | **Tipo**        | Funcional                |
 | **Complejidad** | Media         |
 | **Entrega**     | v3             |
 
 
-| **R79**     | **Ordenar búsqueda por <<me gusta>>**         |
+| **R79**     | **Ordenar búsqueda por "me gusta"**         |
 | --------------: | :------------------- |
-| **Descripción** | Poder ordenar el resultado de la búsqueda en base a los <<me gusta>> de los capítulos.             |
+| **Descripción** | Poder ordenar el resultado de la búsqueda en base a los "me gusta" de los capítulos.             |
 | **Prioridad**   | Importante           |
 | **Tipo**        | Funcional                |
 | **Complejidad** | Difícil         |
@@ -759,7 +759,7 @@
 
 | **R85**     | **Ranking mensual**         |
 | --------------: | :------------------- |
-| **Descripción** | Se mostrará un ranking con las obras que más <<me gusta>> han recibido el mes anterior, se renueva cada día 1.             |
+| **Descripción** | Se mostrará un ranking con las obras que más "me gusta" han recibido el mes anterior, se renueva cada día 1.             |
 | **Prioridad**   | Opcional           |
 | **Tipo**        | Funcional                |
 | **Complejidad** | Fácil         |
@@ -865,9 +865,9 @@
 | (**R74**) Lector | Importante | Funcional | Media | v3 | 
 | (**R75**) Agregar estado leído a un capítulo | Importante | Funcional | Media | v2 | 
 | (**R76**) Quitar estado leído a un capítulo | Importante | Funcional | Media | v2 | 
-| (**R77**) Dar <<me gusta>> a un capitulo | Importante | Funcional | Media | v3 | 
-| (**R78**) Quitar <<me gusta>> a un capitulo | Importante | Funcional | Media | v3 | 
-| (**R79**) Ordenar búsqueda por <<me gusta>> | Importante | Funcional | Difícil | v3 | 
+| (**R77**) Dar “me gusta” a un capitulo | Importante | Funcional | Media | v3 | 
+| (**R78**) Quitar "me gusta" a un capitulo | Importante | Funcional | Media | v3 | 
+| (**R79**) Ordenar búsqueda por "me gusta" | Importante | Funcional | Difícil | v3 | 
 | (**R80**) Cuenta administrador | Importante | Funcional | Media | v2 | 
 | (**R81**) Banear usuario | Opcional | Funcional | Media | v3 | 
 | (**R82**) Contraseña olvidada | Opcional | Funcional | Media | v3 | 
